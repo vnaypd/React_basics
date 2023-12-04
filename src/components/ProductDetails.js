@@ -16,7 +16,7 @@ const ProductDetail = () => {
     return (
       <p>
         <center>
-          <b>Loading...</b>
+          <h1>Loading...</h1>
         </center>
       </p>
     );
@@ -25,7 +25,7 @@ const ProductDetail = () => {
   return (
     <div className="product-detail-container">
       <div className="product-detail">
-        <img src={product.images[0]} alt="image not found!" />
+        <img src={product.images[0]} alt="img_not_found!" />
         <h2>{product.title}</h2>
       </div>
       <div className="card_2">
