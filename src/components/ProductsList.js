@@ -9,8 +9,8 @@ const ProductList = () => {
     fetch("https://dummyjson.com/products")
       .then((response) => response.json())
       .then((data) => setProducts(data.products));
-    console.log("prducts", products);
-  }, []);
+    console.log("products", products);
+  });
 
   return (
     <>
