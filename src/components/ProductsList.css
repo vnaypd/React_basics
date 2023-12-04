@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #FFF0F5;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+.App h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.product-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card {
+  height: 200%;
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 5px solid rgb(128, 128, 128);
+  box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.product-card img {
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.product-list h3 {
+  text-align: center;
+  text-decoration: 2px underline;
+  text-decoration-color: wheat;
+  margin-bottom: 10px;
+  transition: 0s ease;
+  cursor: pointer;
+  background-color: white;
+}
+
+.product-list h3:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.price_rate {
+  height: 100%;
+  width: 100%;
+  font-weight: 1000;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.price_rate p {
+  background-color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: #FF69B4;
+}
+
+.Nav_bar {
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.Nav_bar input {
+  width: 700px;
+  padding: 10px;
+  margin-right: auto;
+  background-color: white;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.Nav_bar input::placeholder {
+  color: grey;
+  font-size: 20px;
+}
+
+.logo {
+  background-color: white;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 50px;
+  color: #FFB6C1;
+}
+
+button {
+  margin-left: 5px;
+  padding: 7px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  background-color: orangered;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.login {
+  background-color: #FFB6C1;
+}
+
+.register {
+  background-color: #FFB6C1;
+}

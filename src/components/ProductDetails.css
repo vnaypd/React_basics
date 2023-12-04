@@ -1,0 +1,126 @@
+.product-detail-container {
+  text-align: center;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-detail {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #000;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 7px solid black;
+}
+
+.product-detail h2 {
+  color: #333;
+  background-color: white;
+}
+
+.card_2 {
+  width: 45%;
+  height: 67vh;
+  padding: 30px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 7px solid black;
+}
+
+b {
+  background-color: white;
+}
+
+.card_2 p {
+  margin-top: 10px;
+  background-color: white;
+  font-size: 30px;
+}
+
+.product-detail-price {
+  color: #ff8b8b;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+}
+
+.stock {
+  color: #ff8b8b;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-style: italic;
+
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: #ff8b8b;
+  font-style: italic;
+  text-align: center;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: #ff8b8b;
+  font-style: italic;
+  text-align: center;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: #ff8b8b;
+  font-style: italic;
+  text-align: center;
+}
+
+.discount {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: #ff8b8b;
+  font-style: italic;
+  text-align: center;
+}
+
+
+.buttons {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button {
+  height: 100%;
+  width: 400px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy {
+  background-color: orangered !important;
+}
